@@ -22,8 +22,8 @@
   <body>
       <header>
       </header>
-
-      <main class="main d-flex" style="height: 100%; min-height: 100vh;">
+      <!-- Sidebar -->
+      <main class="main d-flex" style="height: 100%; min-height: 100vh; background-color: #f7f8fc;">
         <div class="sidebar d-flex flex-column flex-shrink-0 col-md-2">
           <a class="d-flex align-items-center text-white text-decoration-none pb-4" style="margin: 32px">
             <img src="assets/images/logo.png" width="32px" height="32px"/>
@@ -66,10 +66,10 @@
             </li>
           </ul>
         </div>
-
+        <!--Overview-->
         <div class="container">
           <div class="d-flex flex-grow-1">
-              <span class="fs-4 p-3">Overview</span>
+              <span class="fs-4 p-3 font-weight-bold">Overview</span>
           </div>
           
           <div class="container">
@@ -108,8 +108,63 @@
                 </div>
             </div>
         </div>
-          
-      </div>
+        <!--Today's Trend-->
+        <div class="container">
+          <div class="row"></div>
+            <div class="card3">
+              <div class="d-flex" style="height: 100%;">
+                <div class="text-left pt-5 ps-5 pe-5 pb-2">
+                  <h3 class="card-title1">Today's trends</h3>
+                  <div class="d-flex justify-content-between mb-5">
+                    <p class="text-grey1 m-0">as of 25 May 2019, 09:41 PM</p>
+                    <div class="d-flex">
+                      <div class="d-flex align-items-center me-5">
+                        <div class="me-2 legend-bar" style="background-color: #3751FF;"></div>
+                        <p class="m-0 legend-text">Today</p>
+                      </div>
+                      <div class="d-flex align-items-center">
+                        <div class="me-2 legend-bar" style="background-color: #DFE0EB;"></div>
+                        <p class="m-0 legend-text">Yesterday</p>
+                      </div>
+                    </div>
+                  </div>
+                  <img src="assets/images/full graph.png" alt="graph" width="686px" height="380px">
+                </div>
+                <div class="d-flex">
+                  <div class="vr"></div>
+                </div>
+                <div class="d-flex w-100 flex-column" style="height: 100%">
+                  <div class="p-4 border-bottom justify-content-between" style="flex: 1;">
+                    <p class="mbt text-center mb-1">Resolved</p>
+                    <p class="mbt2 text-center m-0">449</p>
+                  </div>
+                  
+                  <div class="p-4 border-bottom" style="flex: 1;">
+                    <p class="mbt text-center mb-1">Received</p>
+                    <p class="mbt2 text-center m-0">426</p>
+                  </div>
+
+                  <div class="p-4 border-bottom" style="flex: 1;">
+                    <p class="mbt text-center mb-1">Average first reponse time</p>
+                    <p class="mbt2 text-center m-0">33m</p>
+                  </div>
+
+                  <div class="p-4 border-bottom" style="flex: 1;">
+                    <p class="mbt text-center mb-1">Average reponse time</p>
+                    <p class="mbt2 text-center m-0">3h 8m</p>
+                  </div>
+
+                  <div class="p-4 border-bottom" style="flex: 1;">
+                    <p class="mbt text-center mb-1">Resolution within SLA</p>
+                    <p class="mbt2 text-center m-0">94%</p>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
       </main>
 
       
