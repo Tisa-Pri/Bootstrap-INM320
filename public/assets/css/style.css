@@ -69,7 +69,7 @@
 }
 
 .card3 {
-  width: 1150px;
+  width: 1216px;
   height: 546px;
   flex-shrink: 0;
   margin: 30px;
@@ -141,6 +141,12 @@
   border-radius: 50%;
   border: 5px solid #DFE0EB;
   padding: 5px;
+}
+/* mobile version */
+@media only screen and (max-width: 768px) {
+  main {
+    background-color:#F7F8FC;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
