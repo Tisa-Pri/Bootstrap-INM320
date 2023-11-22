@@ -145,9 +145,16 @@
 }
 /* mobile version */
 @media only screen and (max-width: 768px) {
-  main {
-    background-color:#F7F8FC;
+  .sidebar {
+    display: none;
   }
+
+.main {
+  height: 100%;
+  min-height: 100vh;
+  background-color: #f7f8fc;
+}
+
 }
 
 /*# sourceMappingURL=style.css.map */
